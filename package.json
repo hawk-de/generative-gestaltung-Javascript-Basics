@@ -1,0 +1,22 @@
+{
+  "name": "javascript-basics",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src/*.js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
