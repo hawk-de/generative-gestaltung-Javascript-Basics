@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "index.mjs",
   "scripts": {
-    "test": "jest",
+    "test": "echo 'no test specified. use repl.it'",
     "lint": "eslint ./src/*.js --fix"
   },
   "keywords": [],
