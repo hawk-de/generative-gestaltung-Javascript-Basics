@@ -12,7 +12,16 @@ function create2StepRange() {
   return undefined;
 }
 
+/**
+ * Create a function that takes an array of strings and `join`s them together separated by a `, `
+ * @param {string[]} arr An array of strings to join
+ * @returns {string} The joined items of the array delimited by `, `
+ */
+function joinArrayOfStrings(arr) {
+  return arr;
+}
 
 module.exports = {
-  create2StepRange
-}
+  create2StepRange,
+  joinArrayOfStrings,
+};
