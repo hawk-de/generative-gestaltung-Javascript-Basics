@@ -11,9 +11,10 @@
 //@ts-check
 
 /**
+ * Description
  * @param {number} a
  * @param {number} b
- * @returns The sum of a and b
+ * @returns {number} The sum of a and b
  */
 function add(a, b) {
   return a - b;
