@@ -21,7 +21,20 @@ function joinArrayOfStrings(arr) {
   return arr;
 }
 
+/**
+ *
+ * Create a function that returns every second element in the array as a new array.
+ * @template T
+ * @param {Array<T>} arr But only every second item
+ * @returns {Array<T>} Every second item in the array
+ *
+ */
+function getEverySecondElement(arr) {
+  return arr;
+}
+
 module.exports = {
+  getEverySecondElement,
   create2StepRange,
   joinArrayOfStrings,
 };
